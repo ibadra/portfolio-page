@@ -1,4 +1,4 @@
-#home {
+section#home {
   padding-top: 4rem;
   padding-bottom: 6rem;
 }
@@ -9,9 +9,10 @@ h1 {
   margin-bottom: 0.8rem;
 }
 
-h6 {
+h6.role {
   margin-top: 0;
   text-align: center;
+  font-size: 1rem;
 }
 
 ul.menu {
@@ -25,6 +26,62 @@ ul.menu {
 .menu li {
   display: inline;
   margin: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  section#home {
+    position: relative;
+  }
+
+  h1 {
+    font-size: 9vw;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+  }
+
+  span.lastName {
+    padding-left: 14rem;
+  }
+
+  h6.role {
+    margin-top: 0;
+    display: inline-block;
+    position: relative;
+    top: 2rem;
+    right: 7rem;
+  }
+
+  div.menu-box {
+    display: inline-block;
+    height: 20vw;
+    position: relative;
+    top: 8rem;
+    transform: rotate(-25deg);
+    border-left: solid black 0.4rem;
+  }
+
+  ul.menu {
+    margin: 0;
+    transform: rotate(25deg);
+    position: absolute;
+    top: 20%;
+    text-align: left;
+  }
+
+  .menu li {
+    display: list-item;
+    margin-bottom: 2rem;
+  }
+
+  li.menu-item-2 {
+    padding-left: 1.5rem;
+  }
+
+  li.menu-item-3 {
+    padding-left: 3rem;
+  }
 }
 
 img {
