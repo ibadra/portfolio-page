@@ -28,6 +28,10 @@ ul.menu {
   margin: 1rem;
 }
 
+ul.menu li a {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   section#home {
     position: relative;
@@ -55,9 +59,9 @@ ul.menu {
 
   div.menu-box {
     display: inline-block;
-    height: 20vw;
+    height: 21vw;
     position: relative;
-    top: 8rem;
+    top: 2.5rem;
     transform: rotate(-25deg);
     border-left: solid black 0.4rem;
   }
@@ -66,21 +70,21 @@ ul.menu {
     margin: 0;
     transform: rotate(25deg);
     position: absolute;
-    top: 20%;
+    top: 21%;
     text-align: left;
   }
 
   .menu li {
     display: list-item;
-    margin-bottom: 2rem;
+    margin-bottom: 25%;
   }
 
   li.menu-item-2 {
-    padding-left: 1.5rem;
+    padding-left: 1.8rem;
   }
 
   li.menu-item-3 {
-    padding-left: 3rem;
+    padding-left: 3.7rem;
   }
 }
 
