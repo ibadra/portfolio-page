@@ -1,7 +1,23 @@
+body {
+  font-size: 1.1rem;
+}
+
 section#home {
   padding-top: 4rem;
   padding-bottom: 6rem;
+  margin: 4vh 3vw 0 3vw;
 }
+
+#about,
+#projects,
+#contact {
+  margin: 10vh 7vw;
+}
+
+#footer {
+  margin: 7vh 7vw 0 7vw;
+}
+
 h1 {
   font-size: 20vw;
   text-align: center;
@@ -26,15 +42,38 @@ ul.menu {
 .menu li {
   display: inline;
   margin: 1rem;
+  font-size: 1.05rem;
 }
 
 ul.menu li a {
   text-decoration: none;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+img {
+  width: 5.4rem;
+}
+
+textarea {
+  max-width: 100%;
+}
+
 @media screen and (min-width: 768px) {
+  body {
+    font-size: 1.3rem;
+  }
   section#home {
     position: relative;
+  }
+
+  #about,
+  #projects,
+  #contact {
+    margin-bottom: 15vh;
+    margin-top: 15vh;
   }
 
   h1 {
@@ -77,6 +116,7 @@ ul.menu li a {
   .menu li {
     display: list-item;
     margin-bottom: 25%;
+    font-size: 1.4rem;
   }
 
   li.menu-item-2 {
@@ -86,12 +126,17 @@ ul.menu li a {
   li.menu-item-3 {
     padding-left: 3.7rem;
   }
-}
 
-img {
-  max-width: 28%;
-}
+  h2 {
+    font-size: 3.5rem;
+  }
 
-textarea {
-  max-width: 100%;
+  img {
+    width: 13rem;
+  }
+
+  .about-statement {
+    display: inline-block;
+    width: 410px;
+  }
 }
