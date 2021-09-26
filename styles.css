@@ -53,12 +53,44 @@ h2 {
   font-size: 2rem;
 }
 
-img {
-  width: 5.4rem;
+img.profile-photo {
+  width: 6rem;
+}
+
+.quotes {
+  width: 9vw;
+  margin: 1rem;
 }
 
 textarea {
   max-width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    text-align: center;
+  }
+
+  .profile-photo {
+    display: block;
+    margin: 3rem auto 1rem auto;
+  }
+
+  .quotes {
+    float: left;
+  }
+
+  .about-statement-p {
+    padding-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .about-statement {
+    position: relative;
+    bottom: 10rem;
+    left: 18rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -131,12 +163,22 @@ textarea {
     font-size: 3.5rem;
   }
 
-  img {
+  img.profile-photo {
     width: 13rem;
+    margin: 3.5vw;
+    margin-right: 6vw;
   }
 
   .about-statement {
     display: inline-block;
-    width: 410px;
+    width: 35rem;
+  }
+
+  .quotes {
+    width: 5.5rem;
+  }
+
+  .about-statement-p {
+    margin-left: 7rem;
   }
 }
