@@ -1,3 +1,4 @@
+/********************************** SMALL VIEWPORT AND GENERAL *********************************/
 body {
   font-size: 1.1rem;
 }
@@ -62,15 +63,22 @@ img.profile-photo {
   margin: 1rem;
 }
 
+.skill-icon {
+  width: 17vw;
+  margin: 2%;
+}
+
+.skill-stacks {
+  text-align: center;
+  margin-top: 15vh;
+}
+
 textarea {
   max-width: 100%;
 }
 
+/*************************************** SMALL VIEWPORT **************************************/
 @media screen and (max-width: 767px) {
-  h2 {
-    text-align: center;
-  }
-
   .profile-photo {
     display: block;
     margin: 3rem auto 1rem auto;
@@ -85,13 +93,17 @@ textarea {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+/*************************************** MEDIUM VIEWPORT **************************************/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .about-statement {
     position: relative;
     bottom: 10rem;
     left: 18rem;
   }
 }
+
+/************************************ MEDIUM AND LARGE VIEWPORT***********************************/
 
 @media screen and (min-width: 768px) {
   body {
@@ -180,5 +192,9 @@ textarea {
 
   .about-statement-p {
     margin-left: 7rem;
+  }
+
+  .skill-icon {
+    width: 7rem;
   }
 }
