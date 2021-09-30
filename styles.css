@@ -17,6 +17,7 @@ section#home {
 
 #footer {
   margin: 7vh 7vw 0 7vw;
+  text-align: center;
 }
 
 h1 {
@@ -73,8 +74,32 @@ img.profile-photo {
   margin-top: 15vh;
 }
 
+.project-set {
+  border: solid black;
+  padding: 1rem;
+  padding-top: 0;
+  margin-bottom: 5vh;
+}
+
+.project-img {
+  width: 100%;
+}
+
+input {
+  margin: 0 0 2vh 1vw;
+}
+
 textarea {
   max-width: 100%;
+  margin-top: 1vh;
+}
+
+button.submit-form {
+  display: block;
+}
+
+.copyright {
+  margin-top: 3vh;
 }
 
 /*************************************** SMALL VIEWPORT **************************************/
@@ -196,5 +221,19 @@ textarea {
 
   .skill-icon {
     width: 7rem;
+  }
+
+  .project-inner-case {
+    display: flex;
+  }
+
+  .project-img {
+    width: 35%;
+  }
+
+  .project-description {
+    flex: 33.33%;
+    padding-left: 1rem;
+    line-height: 1.3;
   }
 }
