@@ -15,6 +15,10 @@ section#home {
   margin: 10vh 7vw;
 }
 
+#contact {
+  position: relative;
+}
+
 #footer {
   margin: 7vh 7vw 0 7vw;
   text-align: center;
@@ -100,6 +104,18 @@ button.submit-form {
 
 .copyright {
   margin-top: 3vh;
+}
+
+.modal {
+  visibility: hidden;
+  border: solid black;
+  z-index: 1000;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  width: 40vw;
+  height: 60vh;
+  background-color: aqua;
 }
 
 /*************************************** SMALL VIEWPORT **************************************/
