@@ -15,6 +15,10 @@ section#home {
   margin: 10vh 7vw;
 }
 
+#about {
+  position: relative;
+}
+
 #contact {
   position: relative;
 }
@@ -59,8 +63,24 @@ h2 {
   font-size: 2rem;
 }
 
+.photo-area {
+  position: relative;
+}
+
 img.profile-photo {
   width: 6rem;
+}
+
+.social-icons-profile {
+  position: absolute;
+  bottom: 0;
+  left: 60%;
+  width: 17%;
+  text-align: center;
+}
+
+div.social-icons-profile a {
+  margin-bottom: 5rem;
 }
 
 .quotes {
@@ -89,8 +109,14 @@ img.profile-photo {
   width: 100%;
 }
 
+label {
+  margin-right: 1vw;
+}
+
 input {
-  margin: 0 0 2vh 1vw;
+  margin: 1vh 0 2vh 0;
+  padding: 1vw 0 1vw 1vw;
+  max-width: 15rem;
 }
 
 textarea {
@@ -120,9 +146,11 @@ button.submit-form {
 
 /*************************************** SMALL VIEWPORT **************************************/
 @media screen and (max-width: 767px) {
+  .photo-area,
   .profile-photo {
     display: block;
     margin: 3rem auto 1rem auto;
+    padding-bottom: 0.5rem;
   }
 
   .quotes {
@@ -214,6 +242,10 @@ button.submit-form {
 
   h2 {
     font-size: 3.5rem;
+  }
+
+  .photo-area {
+    display: inline-block;
   }
 
   img.profile-photo {
