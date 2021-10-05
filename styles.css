@@ -73,14 +73,15 @@ img.profile-photo {
 
 .social-icons-profile {
   position: absolute;
-  bottom: 0;
-  left: 60%;
+  bottom: 4%;
+  left: 37%;
   width: 17%;
+  height: auto;
   text-align: center;
 }
 
-div.social-icons-profile a {
-  margin-bottom: 5rem;
+div.social-icons-profile i {
+  margin: 6%;
 }
 
 .quotes {
@@ -158,6 +159,21 @@ button.submit-form {
   margin-top: 4rem;
 }
 
+#footer p {
+  font-size: 1vw;
+}
+
+#footer i {
+  margin: 0.6%;
+}
+
+p.closing-bracket,
+h2 span {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-left: 1rem;
+}
+
 /*************************************** SMALL VIEWPORT **************************************/
 @media screen and (max-width: 767px) {
   .photo-area,
@@ -165,6 +181,10 @@ button.submit-form {
     display: block;
     margin: 3rem auto 1rem auto;
     padding-bottom: 0.5rem;
+  }
+
+  img.profile-photo {
+    width: 7rem;
   }
 
   .quotes {
@@ -175,6 +195,15 @@ button.submit-form {
     padding-top: 3rem;
   }
 
+  .social-icons-profile {
+    left: 41%;
+    width: 20%;
+  }
+
+  div.social-icons-profile i {
+    margin: 8%;
+  }
+
   .modal {
     left: 15%;
   }
@@ -183,6 +212,15 @@ button.submit-form {
 /*************************************** MEDIUM VIEWPORT **************************************/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .social-icons-profile {
+    bottom: 0;
+    left: 33%;
+    width: 30%;
+  }
+
+  div.social-icons-profile i {
+    margin: 8%;
+  }
   .about-statement {
     position: relative;
     bottom: 10rem;
