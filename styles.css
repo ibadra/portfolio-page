@@ -134,14 +134,28 @@ button.submit-form {
 
 .modal {
   visibility: hidden;
-  border: solid black;
+  border: solid aqua;
   z-index: 1000;
   position: fixed;
-  top: 30%;
-  left: 25%;
-  width: 40vw;
-  height: 60vh;
+  top: 20%;
+  left: 35%;
+  width: 50vh;
+  height: 50vh;
   background-color: aqua;
+  padding: 2rem;
+  text-align: center;
+  line-height: 5vh;
+  border-radius: 50%;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.modal-text {
+  margin-top: 4rem;
 }
 
 /*************************************** SMALL VIEWPORT **************************************/
@@ -159,6 +173,10 @@ button.submit-form {
 
   .about-statement-p {
     padding-top: 3rem;
+  }
+
+  .modal {
+    left: 15%;
   }
 }
 
