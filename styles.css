@@ -136,7 +136,7 @@ button.submit-form {
   visibility: hidden;
   border: solid black;
   z-index: 1000;
-  position: absolute;
+  position: fixed;
   top: 30%;
   left: 25%;
   width: 40vw;
