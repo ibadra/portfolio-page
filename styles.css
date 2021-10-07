@@ -1,6 +1,7 @@
 /********************************** SMALL VIEWPORT AND GENERAL *********************************/
 body {
   font-size: 1.1rem;
+  font-family: "Source Serif Pro", serif;
 }
 
 section#home {
@@ -33,6 +34,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.1rem;
   margin-bottom: 0.8rem;
+  font-family: "Comfortaa", cursive;
 }
 
 h6.role {
@@ -55,8 +57,15 @@ ul.menu {
   font-size: 1.05rem;
 }
 
-ul.menu li a {
+ul.menu li a,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  color: black;
 }
 
 h2 {
