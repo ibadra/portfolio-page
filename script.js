@@ -6,6 +6,9 @@ const formName = document.getElementById("name");
 const formEmail = document.getElementById("email");
 const formText = document.getElementById("message");
 
+//STYLES
+formName.style.fontFamily = "Varela Round";
+
 //EVENT LISTENERS
 submitBtn.addEventListener("click", function () {
   setTimeout(openModal, 3000);

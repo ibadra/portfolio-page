@@ -1,7 +1,7 @@
 /********************************** SMALL VIEWPORT AND GENERAL *********************************/
 body {
   font-size: 1.1rem;
-  font-family: "Source Serif Pro", serif;
+  font-family: "Bree Serif", serif;
 }
 
 section#home {
@@ -112,12 +112,25 @@ div.social-icons-profile i {
   border: solid black;
   padding: 1rem;
   padding-top: 0;
-  margin-bottom: 5vh;
+  margin-bottom: 6vh;
 }
 
 .project-img {
   width: 100%;
 }
+
+button,
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  font-family: "Varela Round", sans-serif;
+}
+
+/* input::-moz-placeholder,
+input:-ms-input-placeholder,
+textarea::-moz-placeholder,
+textarea:-ms-input-placeholder {
+  font-family: "Bree Serif", serif;
+} */
 
 label {
   margin-right: 1vw;
@@ -338,6 +351,8 @@ h2 span {
 
   .project-inner-case {
     display: flex;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
   }
 
   .project-img {
