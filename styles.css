@@ -117,7 +117,11 @@ div.social-icons-profile i {
 }
 
 .project-set {
-  background-color: rgba(178, 249, 252, 0.3);
+  background-image: linear-gradient(
+    rgba(178, 249, 252, 0.3),
+    rgba(178, 249, 252, 0.3),
+    rgba(157, 132, 183, 0.3)
+  );
   padding: 1rem 2rem;
   margin-bottom: 6vh;
   border-radius: 20px / 15px;
@@ -128,6 +132,11 @@ div.social-icons-profile i {
   width: 378px;
   height: 177px;
   border-radius: 20px / 15px;
+  max-width: 100%;
+}
+
+.contact-me-img-1 {
+  max-width: 30%;
 }
 
 button,
@@ -214,9 +223,18 @@ button.submit-form {
   color: #9d84b7;
 }
 
+p.closing-bracket {
+  font-size: 8rem;
+}
+
 button {
   margin: 1rem 1rem 0 0;
-  background: #a3edf0;
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   -webkit-border-radius: 15;
   -moz-border-radius: 15;
   border-radius: 15px;
@@ -227,13 +245,13 @@ button {
 }
 
 button:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
+  background: #eb92be;
+  background-image: -webkit-linear-gradient(top, #eb92be, #3498db);
+  background-image: -moz-linear-gradient(top, #eb92be, #3498db);
+  background-image: -ms-linear-gradient(top, #eb92be, #3498db);
+  background-image: -o-linear-gradient(top, #eb92be, #3498db);
+  background-image: linear-gradient(to bottom, #eb92be, #3498db);
 }
 
 /*************************************** SMALL VIEWPORT **************************************/
@@ -255,6 +273,12 @@ button:hover {
 
   .about-statement-p {
     padding-top: 2rem;
+  }
+
+  .contact-me-img-1 {
+    position: absolute;
+    top: -2rem;
+    right: 0;
   }
 
   .social-icons-profile {
@@ -287,6 +311,15 @@ button:hover {
     position: relative;
     bottom: 10rem;
     left: 18rem;
+  }
+
+  form {
+    margin: 0;
+  }
+
+  .contact-me-img-1 {
+    position: absolute;
+    right: 0;
   }
 }
 
@@ -403,5 +436,13 @@ button:hover {
     flex: 33.33%;
     margin-left: 3rem;
     line-height: 1.5;
+  }
+
+  form {
+    display: inline-block;
+  }
+
+  .contact-me-img-1 {
+    margin-left: 20%;
   }
 }
