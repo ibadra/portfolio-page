@@ -5,6 +5,7 @@ const closeBtn = document.querySelector(".close-btn");
 const formName = document.getElementById("name");
 const formEmail = document.getElementById("email");
 const formText = document.getElementById("message");
+const body = document.querySelector("body");
 
 //STYLES
 formName.style.fontFamily = "Varela Round";

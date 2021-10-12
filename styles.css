@@ -184,18 +184,19 @@ button.submit-form {
 
 .modal {
   visibility: hidden;
-  border: solid aqua;
   z-index: 1000;
   position: fixed;
   top: 20%;
   left: 35%;
   width: 50vh;
   height: 50vh;
-  background-color: aqua;
+  background-color: #172774;
   padding: 2rem;
   text-align: center;
   line-height: 5vh;
   border-radius: 50%;
+  color: #3cb0fd;
+  border: solid 2rem rgba(113, 72, 156, 0.7);
 }
 
 .close-btn {
@@ -427,10 +428,10 @@ button:hover {
     padding-bottom: 3vh;
   }
 
-  .project-img {
-    max-width: 35%;
+  /* .project-img {
+    max-width: 100%;
     object-fit: cover;
-  }
+  } */
 
   .project-description {
     flex: 33.33%;
