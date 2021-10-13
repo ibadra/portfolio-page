@@ -187,16 +187,16 @@ button.submit-form {
   z-index: 1000;
   position: fixed;
   top: 20%;
-  left: 35%;
-  width: 50vh;
-  height: 50vh;
+  left: 37%;
+  width: 35vh;
+  height: 35vh;
   background-color: #172774;
   padding: 2rem;
   text-align: center;
-  line-height: 5vh;
+  line-height: 1.2;
   border-radius: 50%;
   color: #3cb0fd;
-  border: solid 2rem rgba(113, 72, 156, 0.7);
+  border: solid 0.5rem rgba(113, 72, 156, 0.7);
 }
 
 .close-btn {
@@ -427,11 +427,6 @@ button:hover {
     padding-top: 3vh;
     padding-bottom: 3vh;
   }
-
-  /* .project-img {
-    max-width: 100%;
-    object-fit: cover;
-  } */
 
   .project-description {
     flex: 33.33%;
