@@ -71,6 +71,36 @@ h6 {
   color: #9d84b7;
 }
 
+ul.menu li a {
+  animation-name: text-focus-in;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
 h2 {
   font-size: 2rem;
 }
@@ -367,6 +397,17 @@ button:hover {
     top: 2.5rem;
     transform: rotate(-25deg);
     border-left: solid #b2f9fc 0.4rem;
+    animation-name: border;
+    animation-duration: 2s;
+  }
+
+  @keyframes border {
+    from {
+      border-color: white;
+    }
+    to {
+      border-color: #b2f9fc;
+    }
   }
 
   ul.menu {
