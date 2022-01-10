@@ -141,6 +141,11 @@ div.social-icons-profile i {
   margin: 2%;
 }
 
+.skill-icon-tech {
+  width: 4vw;
+  margin: 2%;
+}
+
 .skill-stacks {
   text-align: center;
   margin-top: 15vh;
